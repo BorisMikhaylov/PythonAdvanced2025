@@ -1,0 +1,19 @@
+#From file
+python3 nl.py artifacts/nl.test.input
+
+1 Donec pretium turpis nec scelerisque vestibulum. Donec accumsan leo arcu,
+2 sit amet feugiat leo rutrum in. Quisque vitae arcu vel libero dictum dapibus vitae in erat.
+3 Nulla facilisi. Suspendisse in risus id tortor vulputate imperdiet sed id elit.
+4 Nunc vestibulum accumsan mi, id consectetur quam fermentum id.
+5 Donec purus orci, condimentum ut felis quis, finibus interdum ante.
+6 Integer pellentesque nec neque ut scelerisque.
+
+#From console
+python3 nl.py
+
+first
+1 first
+second
+2 second
+third
+3 third

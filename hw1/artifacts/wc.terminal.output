@@ -1,0 +1,10 @@
+python3 wc.py artifacts/wc.russian.text
+1 1 19 artifacts/wc.russian.text
+
+python3 wc.py < artifacts/wc.russian.text
+1 1 19
+
+python3 wc.py artifacts/tail.short artifacts/tail.long
+3 3 19 artifacts/tail.short
+20 20 91 artifacts/tail.long
+23 23 110 total
