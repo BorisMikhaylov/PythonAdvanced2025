@@ -1,0 +1,9 @@
+services:
+  pdf-creator:
+    image: ubuntu:latest
+    container_name: pdf-creator
+    volumes:
+      - ./:/pdf-creation
+      - ./build-tex.sh:/usr/local/bin/build-tex.sh
+    command:
+      - build-tex.sh
